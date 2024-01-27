@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #2c2c2c;
+    opacity: 1;
+    color: #eaeaea;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    height: 75px;
+   
+}
+.logo {
+    font-size: 25px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.logo:hover{
+    color: #cc8347;
+    transform: rotate(2deg);
+}
+
+.btn-cta{
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: #cc8347;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    padding: 20px;
+    
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a{
+    transition: all 0.5s ease 0s;
+    display: inline-block; 
+}
+li a:hover{
+    color: #cc8347;
+   
+}
+a  {
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.first{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+h2{
+    text-justify: left;
+    font-weight: bold;
+}
+.intro {
+    margin-left: 200px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    gap: 10px 0;
+}
+p a {
+    color:blue;
+}
+.content-img{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+h3 {
+    margin: 10px;
+    margin-left: 50px;
+    padding-left: 150px ;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.thumb{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 5px;
+    transition: 400ms;
+}
+.thumb:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 30px;
+    padding: 1rem 0;
+    color: #443;
+}
+
+.footer .box-container .box a {
+    margin-left: 20px;
+    display: block;
+    font-size: 20px;
+    padding: 1rem 0;
+    color:#443;
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.footer .credit {
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    bottom: 0;
+    background-color: #2c2c2c;
+    text-align: center;
+    font-size: 20px;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    color: wheat;
+}
+
+.footer .credit span {
+    border-bottom: .2rem dashed white;
+}
+
